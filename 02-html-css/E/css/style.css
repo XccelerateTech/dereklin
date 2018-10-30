@@ -1,0 +1,21 @@
+#boxDiv{
+   display:flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   height: 200px;
+}
+.box {
+   width: 100px;
+   height: 100px;
+}
+.box.blue{
+   background: blue;
+}
+.box.green{
+   background: green;
+}
+.box.red{
+   background: red;
+   align-self: flex-end;
+}
+
